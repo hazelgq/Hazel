@@ -1,0 +1,27 @@
+{
+  "id": "64f28ed6-dddb-442b-9c65-e4fb49d3f2c4",
+  "name": "advice.beesting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Remove any stingers immediately, you can try do it using a credit card.\nApplying ice to the site may provide some mild relief.\nIf there is an allergic reaction or you are known to be allergic - seek medical help immediately."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "85243151-e9d8-47ee-a68a-808fbe083b0a",
+  "parentId": "55b5f120-41fe-44ff-b770-9bb286e8c187",
+  "rootParentId": "55b5f120-41fe-44ff-b770-9bb286e8c187",
+  "name": "doctor.location.nearby - yes",
+  "auto": true,
+  "contexts": [
+    "doctorlocationnearby-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "doctorlocationnearby.doctorlocationnearby-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What kind of a doctor would you like to see?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

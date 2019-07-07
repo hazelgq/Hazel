@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8da75a81-becc-48d5-a942-a4ba8edc3e58",
+    "data": [
+      {
+        "text": "What do you know about CPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d11fd2f4-90e9-49a2-af35-4f7c723ccd1e",
+    "data": [
+      {
+        "text": "How to do CPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "08e122a0-6571-4db7-bbcf-0f0ade963536",
+    "data": [
+      {
+        "text": "CPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "4baf997a-ae97-4518-8e52-c513665f989a",
+    "data": [
+      {
+        "text": "I need to see a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c6506bc9-50b5-4c44-89d3-1a4b28933a00",
+    "data": [
+      {
+        "text": "I would like to see a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe17dfc5-d35d-41aa-a876-0b1141d2edb5",
+    "data": [
+      {
+        "text": "doctors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1defc584-28fc-406e-b562-8b150676df88",
+    "data": [
+      {
+        "text": "I want to see a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "e903893d-e6e0-47e9-a067-cac189a6b00a",
+    "data": [
+      {
+        "text": "Find me a doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79cf388e-6be1-442e-a64c-7b264ad6de8d",
+    "data": [
+      {
+        "text": "Show me doctors nearby",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

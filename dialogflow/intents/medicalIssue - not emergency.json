@@ -1,0 +1,38 @@
+{
+  "id": "10ff7709-9dbb-47ec-8e16-3f4e993d3e5c",
+  "parentId": "2f143d22-ace0-44d5-8620-f805b46f9920",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - not emergency",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-yes-tomorrowisnotok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes.medicalIssue-yes-no.medicalIssue-yes-tomorrowisnotok-no",
+      "affectedContexts": [
+        {
+          "name": "medicalIssue-notemergency-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like to consult a doctor by phone?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

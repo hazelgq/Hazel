@@ -1,0 +1,27 @@
+{
+  "id": "7be6c392-3281-4fce-a994-c76e43460f3b",
+  "name": "advice.burn.categorize",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stay calm. Hold your burned skin under cool (not cold) running water or immerse in cool water until pain subsides."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

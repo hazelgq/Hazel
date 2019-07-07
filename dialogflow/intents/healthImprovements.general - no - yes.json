@@ -1,0 +1,60 @@
+{
+  "id": "15eeec16-923c-4a61-b5f5-ad41c34ff187",
+  "parentId": "4f948548-6579-4070-8726-05f7039cebdd",
+  "rootParentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "name": "healthImprovements.general - no - yes",
+  "auto": true,
+  "contexts": [
+    "healthImprovementsgeneral-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "healthImprovementsgeneral.healthImprovementsgeneral-no.healthImprovementsgeneral-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here is some recommended diets:",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "5 Diets That Are Supported by Science",
+          "formattedText": "5 Diets That Are Supported by Science",
+          "image": {
+            "url": "",
+            "accessibilityText": ""
+          },
+          "buttons": [
+            {
+              "title": "5 Diets That Are Supported by Science",
+              "openUrlAction": {
+                "url": "https://www.healthline.com/nutrition/meal-plans",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here is some recommended diets:\n\u003cbr\u003e\u003ca href\u003d\"https://www.healthline.com/nutrition/meal-plans\" target\u003d\"_blank\"\u003e5 Diets That Are Supported by Science\u003c/a\u003e\u003c/br\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

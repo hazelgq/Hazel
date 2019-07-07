@@ -1,0 +1,38 @@
+{
+  "id": "07edff0b-e91e-4a43-8699-1dcaa273fc11",
+  "parentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - want to see a doctor",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes",
+      "affectedContexts": [
+        {
+          "name": "medicalIssue-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I haven\u0027t found any general practitioner available nearby right now, I can set an appointment for tomorrow, will it be ok?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

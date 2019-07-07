@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c3f5146b-276d-4fdc-9623-d9a8788092a8",
+    "data": [
+      {
+        "text": "Chiropractors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac36cf39-ea79-4f79-8167-aad72a63a8a9",
+    "data": [
+      {
+        "text": "I need to see a Chiropractic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

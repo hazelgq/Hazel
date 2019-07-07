@@ -1,0 +1,32 @@
+{
+  "id": "53cabae1-88bd-4089-8433-938ae014b5f3",
+  "parentId": "38590e99-6b57-4224-86aa-5708c00669c0",
+  "rootParentId": "38590e99-6b57-4224-86aa-5708c00669c0",
+  "name": "nonemergency - yes",
+  "auto": true,
+  "contexts": [
+    "nonemergency-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nonemergency.nonemergency-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Then click \u003ca href\u003d\"tel:112\"\u003e here \u003c/a\u003e to call the emergency service."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

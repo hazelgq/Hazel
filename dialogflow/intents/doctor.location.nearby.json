@@ -1,0 +1,126 @@
+{
+  "id": "55b5f120-41fe-44ff-b770-9bb286e8c187",
+  "name": "doctor.location.nearby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "doctorlocationnearby-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some doctors that I found nearby. Would you like me to filter these out?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/?page_id\u003d507",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Gerulf Isaak",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/8-300x200.jpg",
+                "accessibilityText": "Dr. Gerulf Isaak"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/jorg-laurenz/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Jörg Laurenz",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/f1-200x300.jpg",
+                "accessibilityText": "Dr. Jörg Laurenz"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/?page_id\u003d502",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Paul Janina",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/1-1-300x225.jpg",
+                "accessibilityText": "Dr. Paul Janina"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/therese-pauline/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Therese Pauline",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/10-300x139.jpg",
+                "accessibilityText": "Dr. Therese Pauline"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/flora-hermenegild/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Flora Hermenegild",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/12-200x300.jpg",
+                "accessibilityText": "Dr. Flora Hermenegild"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Family Doctor"
+            },
+            {
+              "title": "Chiropractic"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I found some doctors nearby:\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/?page_id\u003d507\" target\u003d\"_blank\"\u003eDr. Gerulf Isaak\u003c/a\u003e\u003c/br\u003e\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/jorg-laurenz\" target\u003d\"_blank\"\u003eDr. Jörg Laurenz\u003c/a\u003e\u003c/br\u003e\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/?page_id\u003d502\" target\u003d\"_blank\"\u003eDr. Paul Janina\u003c/a\u003e\u003c/br\u003e\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/therese-pauline/\" target\u003d\"_blank\"\u003eDr. Therese Pauline\u003c/a\u003e\u003c/br\u003e\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/flora-hermenegild/\" target\u003d\"_blank\"\u003eDr. Flora Hermenegild\u003c/a\u003e\u003c/br\u003e\n would you like me to filter these out?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

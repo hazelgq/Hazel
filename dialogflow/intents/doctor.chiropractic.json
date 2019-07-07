@@ -1,0 +1,54 @@
+{
+  "id": "fe936e0f-25d6-44d1-acbb-d3597e9fc624",
+  "name": "doctor.chiropractic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some Chiropractors that I\u0027ve found",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Dr. Flora Hermenegild",
+          "image": {
+            "url": "https://hazel.gq/wp-content/uploads/2019/06/12-200x300.jpg",
+            "accessibilityText": "Dr. Flora Hermenegild"
+          },
+          "buttons": [
+            {
+              "title": "Dr. Flora Hermenegild",
+              "openUrlAction": {
+                "url": "https://hazel.gq/flora-hermenegild/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some Chiropractors that I\u0027ve found:\n\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/flora-hermenegild/\" target\u003d\"_blank\"\u003eDr. Flora Hermenegild\u003c/a\u003e\u003c/br\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

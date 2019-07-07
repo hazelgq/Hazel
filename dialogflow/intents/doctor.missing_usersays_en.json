@@ -1,0 +1,46 @@
+[
+  {
+    "id": "02dc7b2a-ab7b-4626-8a81-ef3689448bb0",
+    "data": [
+      {
+        "text": "I want to see a ",
+        "userDefined": false
+      },
+      {
+        "text": "Dermatology",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " Doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4707cc0b-51f9-437c-b9f6-694e6a6cf5d3",
+    "data": [
+      {
+        "text": "I want to see a ",
+        "userDefined": false
+      },
+      {
+        "text": "Anesthesiology",
+        "alias": "any",
+        "meta": "@sys.any",
+        "userDefined": true
+      },
+      {
+        "text": " Doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

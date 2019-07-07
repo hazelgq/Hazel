@@ -1,0 +1,27 @@
+{
+  "id": "9b543638-3ad5-466d-a70e-5916a4f578ee",
+  "name": "advice.cpr",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "1. Call the emergency services\n2. Open airway\n3. If there is no breathing begin CPR\n4. Start compressions at a rate of at least 100 compressions per minute\n5. Deliver 2 rescue breaths\n6. Keep performing cycles of chest compressions and breathing"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

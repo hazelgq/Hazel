@@ -1,0 +1,50 @@
+[
+  {
+    "id": "57abb38f-ce82-4786-9f9b-66855df57f64",
+    "data": [
+      {
+        "text": "back pain relief",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0fe23d3c-fb1e-4be8-b7a4-eeafb94daff5",
+    "data": [
+      {
+        "text": "What do you know about back pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "661e1088-9024-4bb9-8496-4cf3395c0655",
+    "data": [
+      {
+        "text": "I have back pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c3cf192-c4ae-4c88-af00-3930376354fb",
+    "data": [
+      {
+        "text": "Back pain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

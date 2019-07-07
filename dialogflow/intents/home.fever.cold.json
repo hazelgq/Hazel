@@ -1,0 +1,54 @@
+{
+  "id": "14b34402-4865-44ac-8bce-dda3924b6dd7",
+  "name": "home.fever.cold",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "I found some medicine for you",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "IbuHEXAL akut 400 mg",
+          "image": {
+            "url": "https://www.docmorris.de/images/produkte/large/03161577/IbuHEXALakut400mg.jpg",
+            "accessibilityText": "IbuHEXAL akut 400 mg"
+          },
+          "buttons": [
+            {
+              "title": "IbuHEXAL akut 400 mg",
+              "openUrlAction": {
+                "url": "https://www.docmorris.de/ibuhexal-akut-400-mg/03161577",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Click \u003ca href\u003d\"https://www.docmorris.de/ibuhexal-akut-400-mg/03161577\" target\u003d\"_blank\"\u003e  here \u003c/a\u003e to order the medicine. Get well soon!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

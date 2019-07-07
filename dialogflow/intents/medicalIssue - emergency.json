@@ -1,0 +1,40 @@
+{
+  "id": "e2f1b465-a631-4657-8305-431a74b34043",
+  "parentId": "2f143d22-ace0-44d5-8620-f805b46f9920",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - emergency",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-yes-tomorrowisnotok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes.medicalIssue-yes-no.medicalIssue-yes-tomorrowisnotok-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Calling now to the emergency services (112)",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "\u003ca href\u003d\"tel:112\"\u003e Click to call the emergency service (112)\u003c/a\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

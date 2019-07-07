@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2e9b5ee8-d16f-43ec-b024-d4f85a2734d0",
+    "data": [
+      {
+        "text": " I want to get a device to measure my blood pressure.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "049aadc3-74d8-4900-be9b-f5522799e616",
+    "data": [
+      {
+        "text": "I want to buy a blood pressure device.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4c21be4c-4cc0-4c9f-8b23-4f92a4337e6b",
+    "data": [
+      {
+        "text": "I need a blood pressure device.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

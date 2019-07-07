@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bad6bd87-0039-465a-85db-a9205d7207c1",
+    "data": [
+      {
+        "text": "I have an headache",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b5314909-2d4d-4cc2-a24e-5d1a9df3bdfa",
+    "data": [
+      {
+        "text": "I\u0027m not feeling well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98c24a1c-cf90-4992-a963-9ef3c9e0fc2f",
+    "data": [
+      {
+        "text": "I don\u0027t feel well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d733d49-47d9-4622-b129-ffb667bfd6e3",
+    "data": [
+      {
+        "text": "I have some medical issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

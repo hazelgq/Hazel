@@ -1,0 +1,38 @@
+[
+  {
+    "id": "63c8d95b-8cb0-48d7-8c25-86b0036a6600",
+    "data": [
+      {
+        "text": "What disease do I have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68c729bc-a2df-4b39-aa08-52843d0e872f",
+    "data": [
+      {
+        "text": "diagnosis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cecd3feb-f9fd-4ab3-8004-a1232c4ff317",
+    "data": [
+      {
+        "text": "diagnose me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

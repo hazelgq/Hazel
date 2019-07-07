@@ -1,0 +1,38 @@
+[
+  {
+    "id": "bd02545d-66ea-409d-a3ba-57f25f08c3d6",
+    "data": [
+      {
+        "text": "What do you know about burns",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81c3bb51-9be9-4dc2-863f-00cab7704204",
+    "data": [
+      {
+        "text": "I have a burn",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eaa3bfda-f7ce-4b0d-880f-62b52a8f7ebd",
+    "data": [
+      {
+        "text": "I burned myself. What should i do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "d992d4ac-0c2e-4db9-a5ee-6165daad247b",
+  "parentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - dont want to see a doctor",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "If so, please let me know how may I help you specifically"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

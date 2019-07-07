@@ -1,0 +1,38 @@
+[
+  {
+    "id": "8ab6e6a3-e2f7-4edb-b49e-e3ad6f27e129",
+    "data": [
+      {
+        "text": "I want to be more healthy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b6cd1b5-7879-4493-8d8f-d8150893da78",
+    "data": [
+      {
+        "text": "How to be healty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "867bead1-270b-4475-a5f1-d38003828812",
+    "data": [
+      {
+        "text": "I want to be healthy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

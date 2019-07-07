@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2e00f8a2-acb0-4a41-b443-7188d007be53",
+    "data": [
+      {
+        "text": "I want to talk to a doctor via phone.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "282837eb-3f31-481c-928d-e072b7248940",
+    "data": [
+      {
+        "text": "I want get a diagnosis from a doctor via phone.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3a91bd69-d92f-480a-97a9-1a1b8e35a786",
+    "data": [
+      {
+        "text": "i want to use the ",
+        "userDefined": false
+      },
+      {
+        "text": "telemedicine",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " service.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "334ea530-2c77-4115-a772-01b613f26d09",
+    "data": [
+      {
+        "text": "Find me  a Family Doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "056b4384-a229-40c8-bd6b-b6662e920036",
+    "data": [
+      {
+        "text": "I would like to see a Family Doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "43076a32-e9d5-456f-b6bb-dae382dd13bf",
+    "data": [
+      {
+        "text": "Family Doctor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

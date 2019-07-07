@@ -1,0 +1,60 @@
+{
+  "id": "53957391-d3b3-444d-b8a1-180399ae026a",
+  "name": "advice.backpain",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "advicebackpain-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Back pain can be caused from different reasons. Here are some exercises for back pain. Would you like me to tell you  about pilates studios nearby?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "Back pain exercises",
+          "image": {
+            "url": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/exercises_for_lower_back_pain_slideshow/webmd_rm_photo_of_toe_touch_exercise.jpg",
+            "accessibilityText": "Back pain exercises"
+          },
+          "buttons": [
+            {
+              "title": "Back pain exercises",
+              "openUrlAction": {
+                "url": "https://www.webmd.com/back-pain/ss/slideshow-exercises",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Back pain can be caused from different reasons, I can recommend you exercises for back pain:\n\u003cbr\u003e\u003ca href\u003d\"https://www.webmd.com/back-pain/ss/slideshow-exercises\" target\u003d\"_blank\"\u003eBack pain exercises\u003c/a\u003e\u003c/br\u003e\n Would you like me to tell you  about pilates studios nearby?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

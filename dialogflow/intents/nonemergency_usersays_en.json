@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2ce19565-255e-48ac-835b-b161b5ab6c2c",
+    "data": [
+      {
+        "text": "I want to so see a doctor but all clinics are closed. What should I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21815621-c404-4bea-a804-be967b3cce36",
+    "data": [
+      {
+        "text": "All the general practicioners are closed. Where can i see a doctor now?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

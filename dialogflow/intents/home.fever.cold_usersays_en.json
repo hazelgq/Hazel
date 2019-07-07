@@ -1,0 +1,35 @@
+[
+  {
+    "id": "a6ea2a89-dc70-4423-821f-437858e8be11",
+    "data": [
+      {
+        "text": "I want to buy medicine for my fever.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad1aba38-dc36-4531-a0d2-20ee0a686a10",
+    "data": [
+      {
+        "text": "I need some medicine ",
+        "userDefined": false
+      },
+      {
+        "text": "against",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " my cold.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

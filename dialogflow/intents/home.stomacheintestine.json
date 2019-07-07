@@ -1,0 +1,55 @@
+{
+  "id": "39cd5c1d-1ba5-4c7b-8654-a307b969e88e",
+  "name": "home.stomacheintestine",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "I found some medicine for you",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Famotidine 20mg",
+          "formattedText": "Famotidine 20mg",
+          "image": {
+            "url": "https://images-na.ssl-images-amazon.com/images/I/71cylNb2lqL._SL1292_.jpg",
+            "accessibilityText": "Famotidine 20mg"
+          },
+          "buttons": [
+            {
+              "title": "Famotidine 20mg",
+              "openUrlAction": {
+                "url": "https://www.amazon.com/Famotidine-Tablets-Bottles-Members-Mark/dp/B014X6H22U",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Click \u003ca href\u003d\"https://www.amazon.com/Famotidine-Tablets-Bottles-Members-Mark/dp/B014X6H22U\" target\u003d\"_blank\"\u003e here \u003c/a\u003e to order the medicine. Get well soon!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "67f90d09-638b-4edc-bb0f-b5fdd62c4673",
+  "parentId": "0604b96b-f873-41c5-86cf-5196a0aa7430",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - want phone - custom",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-wantphone-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes.medicalIssue-yes-no.medicalIssue-yes-tomorrowisnotok-no.medicalIssue-notemergency-yes.medicalIssue-wantphone-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2725f9fa-9685-4f3d-b277-096df7c9684a",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "f0fbd622-cd25-4ca8-86ae-81b92d407151",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Calling 116117"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "a0b5e325-1f2f-43ea-8829-5e46bb67694b",
+  "parentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "rootParentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "name": "healthImprovements.general - yes",
+  "auto": true,
+  "contexts": [
+    "healthImprovementsgeneral-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "healthImprovementsgeneral.healthImprovementsgeneral-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

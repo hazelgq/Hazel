@@ -1,0 +1,54 @@
+{
+  "id": "eb50bfba-1aed-4bbf-9ca2-ecaf8a0b9205",
+  "name": "home.bloodpressure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "I have found a blood pressure device for you:",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "Medisana BU 510 Oberarm- Blutdruckmessgerät 51160",
+          "image": {
+            "url": "https://images-na.ssl-images-amazon.com/images/I/81OCRIgW7JL._SL1500_.jpg",
+            "accessibilityText": "Medisana BU 510 Oberarm- Blutdruckmessgerät 51160"
+          },
+          "buttons": [
+            {
+              "title": "Medisana BU 510 Oberarm- Blutdruckmessgerät 51160",
+              "openUrlAction": {
+                "url": "https://www.amazon.de/Medisana-Blutdruckmessger%C3%A4t-51160-Arrhythmie-Anzeige-Blutdruckmessung/dp/B008KWO3Q2/ref\u003dsr_1_5?__mk_de_DE\u003d%C3%85M%C3%85%C5%BD%C3%95%C3%91\u0026crid\u003d2X2VAQF6ELBB0\u0026keywords\u003dblutdruck+messger%C3%A4te\u0026qid\u003d1561740665\u0026s\u003dgateway\u0026sprefix\u003dBlutdruck%2Caps%2C186\u0026sr\u003d8-5",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I have found a blood pressure device for you. Click \u003ca href\u003d\"https://www.amazon.de/Medisana-Blutdruckmessger%C3%A4t-51160-Arrhythmie-Anzeige-Blutdruckmessung/dp/B008KWO3Q2/ref\u003dsr_1_5?__mk_de_DE\u003d%C3%85M%C3%85%C5%BD%C3%95%C3%91\u0026crid\u003d2X2VAQF6ELBB0\u0026keywords\u003dblutdruck+messger%C3%A4te\u0026qid\u003d1561740665\u0026s\u003dgateway\u0026sprefix\u003dBlutdruck%2Caps%2C186\u0026sr\u003d8-5\" target\u003d\"_blank\" \u003e  here \u003c/a\u003e to buy it."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2f143d22-ace0-44d5-8620-f805b46f9920",
+  "parentId": "07edff0b-e91e-4a43-8699-1dcaa273fc11",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - yes - tomorrow is not ok",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes.medicalIssue-yes-no",
+      "affectedContexts": [
+        {
+          "name": "medicalIssue-yes-tomorrowisnotok-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have an emergency?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

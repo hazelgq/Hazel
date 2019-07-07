@@ -1,0 +1,54 @@
+{
+  "id": "ba4674a7-baf4-44fc-9aec-5a970ab6d685",
+  "name": "diagnose",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "In the future, you could be diagnosed right from here, but for now you could use our partner service Ada for diagnosis.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "formattedText": "Ada",
+          "image": {
+            "url": "https://hazel.gq/wp-content/uploads/2019/06/ADA.jpg",
+            "accessibilityText": "Ada"
+          },
+          "buttons": [
+            {
+              "title": "Ada",
+              "openUrlAction": {
+                "url": "https://ada.com/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In the future, you could be diagnosed right from here, but for now you could use our partner service Ada for diagnosis.\n\u003cbr\u003e\u003ca href\u003d\"https://ada.com/ target\u003d\"_blank\"\"\u003eAda\u003c/a\u003e\u003c/br\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "4f948548-6579-4070-8726-05f7039cebdd",
+  "parentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "rootParentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "name": "healthImprovements.general - no",
+  "auto": true,
+  "contexts": [
+    "healthImprovementsgeneral-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "healthImprovementsgeneral.healthImprovementsgeneral-no",
+      "affectedContexts": [
+        {
+          "name": "healthImprovementsgeneral-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like me to suggest you a better diet?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

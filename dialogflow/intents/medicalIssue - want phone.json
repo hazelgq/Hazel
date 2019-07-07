@@ -1,0 +1,38 @@
+{
+  "id": "0604b96b-f873-41c5-86cf-5196a0aa7430",
+  "parentId": "10ff7709-9dbb-47ec-8e16-3f4e993d3e5c",
+  "rootParentId": "eab41a6b-2959-4f20-93c9-5e5a8322c979",
+  "name": "medicalIssue - want phone",
+  "auto": true,
+  "contexts": [
+    "medicalIssue-notemergency-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicalIssue.medicalIssue-yes.medicalIssue-yes-no.medicalIssue-yes-tomorrowisnotok-no.medicalIssue-notemergency-yes",
+      "affectedContexts": [
+        {
+          "name": "medicalIssue-wantphone-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Would you like to call 116117 or consult our partners at DocDirect?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

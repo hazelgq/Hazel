@@ -1,0 +1,26 @@
+[
+  {
+    "id": "29111401-c9d5-4ac0-8465-b6225eb59c7f",
+    "data": [
+      {
+        "text": "I want to buy medicine for intestine issues.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a73c7cf3-8fc2-43f7-8a41-5977b9ab3d29",
+    "data": [
+      {
+        "text": "I need medicine against stomache ache.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "bbcc2b94-a714-48ae-bcaa-af8d9f67630c",
+  "parentId": "53957391-d3b3-444d-b8a1-180399ae026a",
+  "rootParentId": "53957391-d3b3-444d-b8a1-180399ae026a",
+  "name": "advice.backpain - yes",
+  "auto": true,
+  "contexts": [
+    "advicebackpain-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "advicebackpain.advicebackpain-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some Pilates studios nearby:",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://pilatesplusmuenchen.de/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Pilates Plus",
+              "description": "",
+              "image": {
+                "url": "https://pilatesplusmuenchen.de/wp-content/uploads/2019/01/pilatesplus-muenchen-logo-240.jpg",
+                "accessibilityText": "Pilates Plus"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://www.streckdich.de/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "StreckDich",
+              "description": "",
+              "image": {
+                "url": "https://www.streckdich.de/images/branding.png",
+                "accessibilityText": "StreckDich"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some Pilates studios nearby:\n\u003cbr\u003e\u003ca href\u003d\"https://pilatesplusmuenchen.de/\"\u003ePilates Plus\u003c/a\u003e\u003c/br\u003e\n\u003cbr\u003e\u003ca href\u003d\"https://www.streckdich.de/\"\u003eStreckDich \u003c/a\u003e\u003c/br\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

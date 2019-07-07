@@ -1,0 +1,54 @@
+{
+  "id": "9132fbc1-848a-4574-b25f-dfc4ccf971e4",
+  "name": "docdirekt",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Sure! Use our partner\u0027s service docdirect and follow the instructions over there.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "docdirekt",
+          "image": {
+            "url": "https://docdirekt.de/fileadmin/templates/pics/logo-docdirekt.png",
+            "accessibilityText": "docdirekt"
+          },
+          "buttons": [
+            {
+              "title": "docdirekt",
+              "openUrlAction": {
+                "url": "https://www.docdirekt.de/start/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure! Use our partner\u0027s service \u003ca href\u003d\"https://www.docdirekt.de/start/\" target\u003d\"_blank\"\u003edocdirekt\u003c/a\u003e  and follow the instructions there."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

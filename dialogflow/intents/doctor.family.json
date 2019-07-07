@@ -1,0 +1,68 @@
+{
+  "id": "f278ce68-db2a-47dd-954f-c808b29a1eaf",
+  "name": "doctor.family",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are some family doctors that I\u0027ve found:",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/?page_id\u003d507",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "title": "Dr. Gerulf Isaak",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/8-300x200.jpg",
+                "accessibilityText": "Dr. Gerulf Isaak"
+              }
+            },
+            {
+              "footer": "",
+              "openUrlAction": {
+                "url": "https://hazel.gq/flora-hermenegild/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Dr. Flora Hermenegild",
+              "description": "",
+              "image": {
+                "url": "https://hazel.gq/wp-content/uploads/2019/06/12-200x300.jpg",
+                "accessibilityText": "Dr. Flora Hermenegild"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are some family doctors that I\u0027ve found:\n\u003cbr\u003e\u003ca href\u003d\"https://hazel.gq/?page_id\u003d507\" target\u003d\"_blank\"\u003eDr. Gerulf Isaak\u003c/a\u003e\u003c/br\u003e"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

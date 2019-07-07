@@ -1,0 +1,32 @@
+{
+  "id": "2ba8231a-1218-4784-9ea6-0ed670629fbd",
+  "parentId": "4f948548-6579-4070-8726-05f7039cebdd",
+  "rootParentId": "f59fa7b2-d031-4893-87af-d4141f85a1ec",
+  "name": "healthImprovements.general - no - no",
+  "auto": true,
+  "contexts": [
+    "healthImprovementsgeneral-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "healthImprovementsgeneral.healthImprovementsgeneral-no.healthImprovementsgeneral-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There\u0027s nothing I can do right now to help you, please try again later."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "0e02baa5-6bdd-4194-99b5-c9e0fcb8bf26",
+  "parentId": "38590e99-6b57-4224-86aa-5708c00669c0",
+  "rootParentId": "38590e99-6b57-4224-86aa-5708c00669c0",
+  "name": "nonemergency - no",
+  "auto": true,
+  "contexts": [
+    "nonemergency-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "nonemergency.nonemergency-no",
+      "affectedContexts": [
+        {
+          "name": "nonemergency-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "In this case I can show you the nearest opened clinic if you tell me your town and district.  You can also  click \u003ca href\u003d\"tel:116117\"\u003e here \u003c/a\u003e to call the 116117 to get more information.\nCheck the waiting time of these centers \u003ca href\u003d\"https://hazel.gq/23-2-2/\" target\u003d\"_blank\"\u003ehere\u003c/a\u003e."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
