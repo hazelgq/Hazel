@@ -38,9 +38,9 @@ The website is using the following Wordpress plugins
 
 The domain is served using Freenom and the SSL certificate is given by Let's Encrypt.
 
-Example pages was created for number of doctors which can redirected from the personal assistant.  
+Example pages was created for number of doctors which can be redirected from the personal assistant.  
 
-For showing the waiting-times, we created dedicated page which has view of the facilities database, with option to view/hide hospitals, and to find specific facility by location (using shortcode of Participants Database extension and javscript). The waiting times are updated using a cron job on the server that is running python script periodically which update the waiting time - this should be the point of interface for getting the waiting times.
+For showing the waiting-times, we created dedicated page which has view of the facilities database, with option to view/hide hospitals, and to find specific facility by location (using shortcode of Participants Database extension and javascript). The waiting times are updated using a cron job on the server that is running a python script periodically which updates the waiting time - this should be the point of interface for getting the waiting times.
 
 ## Scripts
 Different scripts which were used to automate some of the tasks and to run on the servers are on the scripts folder.
