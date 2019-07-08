@@ -3,7 +3,7 @@
 
 ## Abstract
 The idea behind Hazel is to become a intelligent centralized health care information service. We want it to be able to answer any health care related question with either an educated answer or direction to the right service the patient should use.  
-For the prototype we decided to implement an AI personal assistant which will be integrated with one of the available personal assistants  and a website for hosting rich contant pages where the 
+For the prototype we decided to implement an AI personal assistant which will be integrated with one of the available personal assistants  and a website for hosting rich content pages where the 
 
 ## Personal Assistant
 The personal assistant is implemented using Dialogflow, see related training files and webhooks in the dialogflow folder.  
