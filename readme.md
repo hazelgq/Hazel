@@ -15,7 +15,7 @@ For the prototype, we choose to integrate it with Google Assistant since it seem
 Using Google's Actions console we have created an Action project from our dialogflow model. After filling all the information and configuration needed for deployment we launch our test version of the Google Assistant so it can be used from any user we have attached to the test version, this way we could test our application on phones, tablets or smart-home device.
 
 ### Website Integration
-The website integration is done using 'My Chatbot' Wordpress extension, the extension lets us easily implement a view which connects to dialogflow API using a shortcode withing the Wordpress pages.
+The website integration is done using 'My Chatbot' Wordpress extension, the extension lets us easily implement a view which connects to dialogflow API using a shortcode within the Wordpress pages.
 
 ## Website
 
