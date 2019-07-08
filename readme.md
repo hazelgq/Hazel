@@ -36,6 +36,7 @@ The website is using the following Wordpress plugins
  * Super Progressive Web Apps and AMP to support PWA (website as an app)
  * wpDiscuz for improving the commenting system and add rating
  * RumbleTalk Chat which enables users to chat with each other
+ * TablePress for creating tables
 
 The domain is served using Freenom and the SSL certificate is given by Let's Encrypt.
 
