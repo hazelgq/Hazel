@@ -14,6 +14,7 @@ For the prototype we decided to implement an AI personal assistant which will be
    * Google Dialogflow
    * Google Actions
 * Freenom account with domain reserved
+* WordPress Account
 
 ## Personal Assistant
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Dialogflow_logo.svg/1280px-Dialogflow_logo.svg.png" width="200"/>
