@@ -31,6 +31,7 @@ The following information can be stored in an intent in addition to its name (th
 * Action and parameters
 * Responses
 * Fulfillment
+
 The following screenshot shows the Dialogflow console in which the Intent is created and worked on:
 
 <img src="https://hazel.gq/wp-content/uploads/2019/07/dialogflow_screenshot-1024x643.png"/>
