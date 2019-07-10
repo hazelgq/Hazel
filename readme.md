@@ -99,6 +99,7 @@ The website is using the following Wordpress plugins
  * wpDiscuz for improving the commenting system and add rating
  * TablePress for creating tables
  * RumbleTalk Chat for adding chat rooms and enables users to chat with each other
+ * Elementor - Header, Footer & Blocks to add a customized header
 
 The domain is served using Freenom, after buying static IP from AWS route 53 and attaching our server to it, on the Freenom console we have registered the static IP on 'A' record for our domain DNS.  
 For the SSL certificate we used Let's Encrypt, after getting the certificate we have also registered it on the server and on 'TXT' records on the DNS server.
