@@ -90,16 +90,15 @@ After launching the instance, Wordpress + Apache server need to be installed [se
 
 The website is using the following Wordpress plugins
 
- * Elementor
+ * Elementor for a user friendly building of weg pages
  * Insert Headers and Footers, and Scripts n Styles for adding custom javascripts
  * My Chatbot to integrate our Dialogflow model in the website
  * Participants Database for viewing databases tables on pages
  * Really Simple SSL
  * Super Progressive Web Apps and AMP to support PWA (website as an app)
  * wpDiscuz for improving the commenting system and add rating
- * RumbleTalk Chat which enables users to chat with each other
  * TablePress for creating tables
- * RumbleTalk for adding chat rooms
+ * RumbleTalk Chat for adding chat rooms and enables users to chat with each other
 
 The domain is served using Freenom, after buying static IP from AWS route 53 and attaching our server to it, on the Freenom console we have registered the static IP on 'A' record for our domain DNS.  
 For the SSL certificate we used Let's Encrypt, after getting the certificate we have also registered it on the server and on 'TXT' records on the DNS server.
