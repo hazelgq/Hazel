@@ -48,23 +48,23 @@ An "input context" ensures that the corresponding intent can only be called if t
 Using this function, the agent can remember which intents have already been accessed and then activate others. This enables a more personalized and thus more natural call process.
 If an "output context" for an intent is unique, an intent with the corresponding "input context" is called a "follow-up intent".
 
-## Events
+### Events
 Besides training phrases, events are another way to control an intent. Here, an intent can be triggered without direct action by the user. Dialogflow offers a selection of events.
 
-## Training Phrases
+### Training Phrases
 The training phrases serve the machine learning of the agent. Possible user entries are stored here for each intent if the user wants to access this intent. Dialogflow recommends 10-20 training phrases per intent in its guides.
 Based on these training phrases and with the help of Machine Learning, Dialogflow creates a dynamic model. The user's inputs are then assigned to the intents using this model.
 
-## Actions and parameters
+### Actions and parameters
 In the line for "actions", values can be defined that are to be sent via the webhook.
 The section "parameters" is used to annotate the training phrases. Entities representing a group of terms can be defined. In this group the different terms with their synonyms can be defined. In the training phrases words or phrases can be marked and assigned to the entities.
 This annotation of the training phrases helps the dynamic model of the agent to better understand what is being said. In addition, parameters, i.e. the entity values contained in what is said, can be extracted and used further.
 
-## Responses
+### Responses
 Here you define the response that Dialogflow should return. The possibilities here are manifold. For the sake of simplicity and because of the nature of the task, we limit ourselves to text answers.
 Several variants of a text answer can be specified. Dialogflow then goes through the individual variants when answering. If no variant is left for a query, the process starts again from the beginning. This feature helps to make the agent look more human.
 
-## Fulfillment
+### Fulfillment
 A webhook can be used via fulfillment. A webhook is an HTTP callback. An application that implements a webhook will send an HTTP POST to the URL of the webhook when certain events occur. With a webhook you don't have to constantly ask if there is new information, but the data is transferred directly as soon as it is available. The webhook can also process the received data itself and trigger actions that are not related to the original event.
 Dialogflow supports the integration of a webhook. The use of a webhook is called "fulfillment" in Dialogflow. With the help of fulfillment, a dialog flow agent can call the business logic for specific intents. Thus, during the course of the conversation, the information extracted by Dialogflow's natural speech processing can be used to generate dynamic responses or, as mentioned above, to trigger further actions in the backend. For example, the webhook can be used for answers that require current information from the database. In our case we used the Inline Editor (Powered by Cloud Functions for Firebase) provided by Dialogflow to implement the webhook. 
 
