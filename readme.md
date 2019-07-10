@@ -36,7 +36,7 @@ The following screenshot shows the Dialogflow console in which the Intent is cre
 
 <img src="https://hazel.gq/wp-content/uploads/2019/07/dialogflow_screenshot-1024x643.png"/>
 
-The training files and webhooks we used can be found on the dialogflow folder.    
+The training files and webhooks we used can be found on the Dialogflow folder.    
 The assistant was manually trained to support limited set of scenarios, links and interaction with user was splitted to HTML based responses which are used in the website integration, and to card and other special Google Assistant responses which are used in the Google Integration responses. Where more logic needed to be implemented in response we used webhooks which are hosted directly on our Dialogflow account.
 
 In the following sections we will explain the individual components in further details.
@@ -74,10 +74,10 @@ The way to integrate application with Google Assistant is to use the Google Acti
 
 <img src="https://hazel.gq/wp-content/uploads/2019/07/google_action_screenshot-1024x683.png"/>
 
-Using the console we have created an Action project from our dialogflow model. The console is where all information and configuration needed for deployment is found. We have trained a trigger event from the Action console for 'Please Talk to Hazel Help' and we launch our test version of the Google Assistant so it can be used from any user we have attached to the test version. After attaching our usernames on the console we could test our application on our phones, tablets or smart-home device.
+Using the console we have created an Action project from our Dialogflow model. The console is where all information and configuration needed for deployment is found. We have trained a trigger event from the Action console for 'Please Talk to Hazel Help' and we launch our test version of the Google Assistant so it can be used from any user we have attached to the test version. After attaching our usernames on the console we could test our application on our phones, tablets or smart-home device.
 
 ### Website Integration
-The website integration is done using 'My Chatbot' Wordpress extension, the extension lets us easily implement a view which connects to dialogflow API using a shortcode within the Wordpress pages.
+The website integration is done using 'My Chatbot' Wordpress extension, the extension lets us easily implement a view which connects to Dialogflow API using a shortcode within the Wordpress pages.
 
 ## Website
 
@@ -92,7 +92,7 @@ The website is using the following Wordpress plugins
 
  * Elementor
  * Insert Headers and Footers, and Scripts n Styles for adding custom javascripts
- * My Chatbot to integrate our dialogflow model in the website
+ * My Chatbot to integrate our Dialogflow model in the website
  * Participants Database for viewing databases tables on pages
  * Really Simple SSL
  * Super Progressive Web Apps and AMP to support PWA (website as an app)
