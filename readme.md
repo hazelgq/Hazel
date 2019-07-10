@@ -61,7 +61,7 @@ The section "parameters" is used to annotate the training phrases. Entities repr
 This annotation of the training phrases helps the dynamic model of the agent to better understand what is being said. In addition, parameters, i.e. the entity values contained in what is said, can be extracted and used further.
 
 ### Responses
-Here you define the response that Dialogflow should return. The possibilities here are manifold. For the sake of simplicity and because of the nature of the task, we limit ourselves to text answers.
+Here you define the response that Dialogflow should return. The possibilities here are manifold. 
 Several variants of a text answer can be specified. Dialogflow then goes through the individual variants when answering. If no variant is left for a query, the process starts again from the beginning. This feature helps to make the agent look more human.
 
 ### Fulfillment
